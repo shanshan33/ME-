@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62300D3019BCE036001978CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62300D2F19BCE036001978CB /* Foundation.framework */; };
+		62300D3219BCE036001978CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62300D3119BCE036001978CB /* CoreGraphics.framework */; };
+		62300D3419BCE036001978CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62300D3319BCE036001978CB /* UIKit.framework */; };
+		62300D3A19BCE036001978CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62300D3819BCE036001978CB /* InfoPlist.strings */; };
+		62300D3C19BCE036001978CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62300D3B19BCE036001978CB /* main.m */; };
+		62300D4019BCE036001978CB /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62300D3F19BCE036001978CB /* MPAppDelegate.m */; };
+		62300D4319BCE036001978CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62300D4119BCE036001978CB /* Main.storyboard */; };
+		62300D4619BCE036001978CB /* MPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62300D4519BCE036001978CB /* MPLoginViewController.m */; };
+		62300D4819BCE036001978CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62300D4719BCE036001978CB /* Images.xcassets */; };
+		62300D4F19BCE036001978CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62300D4E19BCE036001978CB /* XCTest.framework */; };
+		62300D5019BCE036001978CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62300D2F19BCE036001978CB /* Foundation.framework */; };
+		62300D5119BCE036001978CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62300D3319BCE036001978CB /* UIKit.framework */; };
+		62300D5919BCE036001978CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62300D5719BCE036001978CB /* InfoPlist.strings */; };
+		62300D5B19BCE036001978CB /* MEPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62300D5A19BCE036001978CB /* MEPlusTests.m */; };
+		62300D6519BCE052001978CB /* Lantinghei.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 62300D6419BCE052001978CB /* Lantinghei.ttc */; };
+		62300D6819BD36DC001978CB /* MPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62300D6719BD36DC001978CB /* MPMainViewController.m */; };
+		62300D7019BD5E86001978CB /* check25.png in Resources */ = {isa = PBXBuildFile; fileRef = 62300D6E19BD5E86001978CB /* check25.png */; };
+		62300D7119BD5E86001978CB /* wrong6.png in Resources */ = {isa = PBXBuildFile; fileRef = 62300D6F19BD5E86001978CB /* wrong6.png */; };
+		62300D7319BD5EC3001978CB /* plus23.png in Resources */ = {isa = PBXBuildFile; fileRef = 62300D7219BD5EC3001978CB /* plus23.png */; };
+		62300D7619BD643E001978CB /* MPBTLEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62300D7519BD643E001978CB /* MPBTLEViewController.m */; };
+		C1A442FF1A881B2C00421961 /* UI_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A442FE1A881B2C00421961 /* UI_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62300D5219BCE036001978CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62300D2419BCE036001978CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62300D2B19BCE036001978CB;
+			remoteInfo = MEPlus;
+		};
+		C1A443001A881B2C00421961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62300D2419BCE036001978CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62300D2B19BCE036001978CB;
+			remoteInfo = MEPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62300D2C19BCE036001978CB /* MEPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62300D2F19BCE036001978CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62300D3119BCE036001978CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62300D3319BCE036001978CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62300D3719BCE036001978CB /* MEPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MEPlus-Info.plist"; sourceTree = "<group>"; };
+		62300D3919BCE036001978CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62300D3B19BCE036001978CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62300D3D19BCE036001978CB /* MEPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEPlus-Prefix.pch"; sourceTree = "<group>"; };
+		62300D3E19BCE036001978CB /* MPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
+		62300D3F19BCE036001978CB /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
+		62300D4219BCE036001978CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62300D4419BCE036001978CB /* MPLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPLoginViewController.h; sourceTree = "<group>"; };
+		62300D4519BCE036001978CB /* MPLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPLoginViewController.m; sourceTree = "<group>"; };
+		62300D4719BCE036001978CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62300D4D19BCE036001978CB /* MEPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62300D4E19BCE036001978CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62300D5619BCE036001978CB /* MEPlusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MEPlusTests-Info.plist"; sourceTree = "<group>"; };
+		62300D5819BCE036001978CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62300D5A19BCE036001978CB /* MEPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEPlusTests.m; sourceTree = "<group>"; };
+		62300D6419BCE052001978CB /* Lantinghei.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lantinghei.ttc; sourceTree = "<group>"; };
+		62300D6619BD36DC001978CB /* MPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMainViewController.h; sourceTree = "<group>"; };
+		62300D6719BD36DC001978CB /* MPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMainViewController.m; sourceTree = "<group>"; };
+		62300D6E19BD5E86001978CB /* check25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check25.png; sourceTree = "<group>"; };
+		62300D6F19BD5E86001978CB /* wrong6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong6.png; sourceTree = "<group>"; };
+		62300D7219BD5EC3001978CB /* plus23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus23.png; sourceTree = "<group>"; };
+		62300D7419BD643E001978CB /* MPBTLEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBTLEViewController.h; sourceTree = "<group>"; };
+		62300D7519BD643E001978CB /* MPBTLEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBTLEViewController.m; sourceTree = "<group>"; };
+		C1A442FA1A881B2C00421961 /* UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A442FD1A881B2C00421961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A442FE1A881B2C00421961 /* UI_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62300D2919BCE036001978CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62300D3219BCE036001978CB /* CoreGraphics.framework in Frameworks */,
+				62300D3419BCE036001978CB /* UIKit.framework in Frameworks */,
+				62300D3019BCE036001978CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62300D4A19BCE036001978CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62300D4F19BCE036001978CB /* XCTest.framework in Frameworks */,
+				62300D5119BCE036001978CB /* UIKit.framework in Frameworks */,
+				62300D5019BCE036001978CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A442F71A881B2C00421961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62300D2319BCE036001978CB = {
+			isa = PBXGroup;
+			children = (
+				62300D3519BCE036001978CB /* MEPlus */,
+				62300D5419BCE036001978CB /* MEPlusTests */,
+				C1A442FB1A881B2C00421961 /* UI Tests */,
+				62300D2E19BCE036001978CB /* Frameworks */,
+				62300D2D19BCE036001978CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62300D2D19BCE036001978CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62300D2C19BCE036001978CB /* MEPlus.app */,
+				62300D4D19BCE036001978CB /* MEPlusTests.xctest */,
+				C1A442FA1A881B2C00421961 /* UI Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62300D2E19BCE036001978CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62300D2F19BCE036001978CB /* Foundation.framework */,
+				62300D3119BCE036001978CB /* CoreGraphics.framework */,
+				62300D3319BCE036001978CB /* UIKit.framework */,
+				62300D4E19BCE036001978CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62300D3519BCE036001978CB /* MEPlus */ = {
+			isa = PBXGroup;
+			children = (
+				62300D4719BCE036001978CB /* Images.xcassets */,
+				62300D4119BCE036001978CB /* Main.storyboard */,
+				62300D3E19BCE036001978CB /* MPAppDelegate.h */,
+				62300D3F19BCE036001978CB /* MPAppDelegate.m */,
+				C1A442F51A881AE800421961 /* ViewControllers */,
+				62300D3619BCE036001978CB /* Supporting Files */,
+			);
+			path = MEPlus;
+			sourceTree = "<group>";
+		};
+		62300D3619BCE036001978CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62300D6919BD5A01001978CB /* Icons */,
+				62300D6419BCE052001978CB /* Lantinghei.ttc */,
+				62300D3719BCE036001978CB /* MEPlus-Info.plist */,
+				62300D3819BCE036001978CB /* InfoPlist.strings */,
+				62300D3B19BCE036001978CB /* main.m */,
+				62300D3D19BCE036001978CB /* MEPlus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62300D5419BCE036001978CB /* MEPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				62300D5A19BCE036001978CB /* MEPlusTests.m */,
+				62300D5519BCE036001978CB /* Supporting Files */,
+			);
+			path = MEPlusTests;
+			sourceTree = "<group>";
+		};
+		62300D5519BCE036001978CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62300D5619BCE036001978CB /* MEPlusTests-Info.plist */,
+				62300D5719BCE036001978CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62300D6919BD5A01001978CB /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				62300D7219BD5EC3001978CB /* plus23.png */,
+				62300D6E19BD5E86001978CB /* check25.png */,
+				62300D6F19BD5E86001978CB /* wrong6.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		C1A442F51A881AE800421961 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62300D4419BCE036001978CB /* MPLoginViewController.h */,
+				62300D4519BCE036001978CB /* MPLoginViewController.m */,
+				62300D6619BD36DC001978CB /* MPMainViewController.h */,
+				62300D6719BD36DC001978CB /* MPMainViewController.m */,
+				62300D7419BD643E001978CB /* MPBTLEViewController.h */,
+				62300D7519BD643E001978CB /* MPBTLEViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C1A442FB1A881B2C00421961 /* UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1A442FE1A881B2C00421961 /* UI_Tests.m */,
+				C1A442FC1A881B2C00421961 /* Supporting Files */,
+			);
+			path = "UI Tests";
+			sourceTree = "<group>";
+		};
+		C1A442FC1A881B2C00421961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1A442FD1A881B2C00421961 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62300D2B19BCE036001978CB /* MEPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62300D5E19BCE036001978CB /* Build configuration list for PBXNativeTarget "MEPlus" */;
+			buildPhases = (
+				62300D2819BCE036001978CB /* Sources */,
+				62300D2919BCE036001978CB /* Frameworks */,
+				62300D2A19BCE036001978CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEPlus;
+			productName = MEPlus;
+			productReference = 62300D2C19BCE036001978CB /* MEPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62300D4C19BCE036001978CB /* MEPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62300D6119BCE036001978CB /* Build configuration list for PBXNativeTarget "MEPlusTests" */;
+			buildPhases = (
+				62300D4919BCE036001978CB /* Sources */,
+				62300D4A19BCE036001978CB /* Frameworks */,
+				62300D4B19BCE036001978CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62300D5319BCE036001978CB /* PBXTargetDependency */,
+			);
+			name = MEPlusTests;
+			productName = MEPlusTests;
+			productReference = 62300D4D19BCE036001978CB /* MEPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1A442F91A881B2C00421961 /* UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A443021A881B2C00421961 /* Build configuration list for PBXNativeTarget "UI Tests" */;
+			buildPhases = (
+				C1A442F61A881B2C00421961 /* Sources */,
+				C1A442F71A881B2C00421961 /* Frameworks */,
+				C1A442F81A881B2C00421961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1A443011A881B2C00421961 /* PBXTargetDependency */,
+			);
+			name = "UI Tests";
+			productName = "UI Tests";
+			productReference = C1A442FA1A881B2C00421961 /* UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62300D2419BCE036001978CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = APT9;
+				TargetAttributes = {
+					62300D4C19BCE036001978CB = {
+						TestTargetID = 62300D2B19BCE036001978CB;
+					};
+					C1A442F91A881B2C00421961 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 62300D2B19BCE036001978CB;
+					};
+				};
+			};
+			buildConfigurationList = 62300D2719BCE036001978CB /* Build configuration list for PBXProject "MEPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62300D2319BCE036001978CB;
+			productRefGroup = 62300D2D19BCE036001978CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62300D2B19BCE036001978CB /* MEPlus */,
+				62300D4C19BCE036001978CB /* MEPlusTests */,
+				C1A442F91A881B2C00421961 /* UI Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62300D2A19BCE036001978CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62300D7119BD5E86001978CB /* wrong6.png in Resources */,
+				62300D7019BD5E86001978CB /* check25.png in Resources */,
+				62300D4819BCE036001978CB /* Images.xcassets in Resources */,
+				62300D3A19BCE036001978CB /* InfoPlist.strings in Resources */,
+				62300D6519BCE052001978CB /* Lantinghei.ttc in Resources */,
+				62300D4319BCE036001978CB /* Main.storyboard in Resources */,
+				62300D7319BD5EC3001978CB /* plus23.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62300D4B19BCE036001978CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62300D5919BCE036001978CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A442F81A881B2C00421961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62300D2819BCE036001978CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62300D3C19BCE036001978CB /* main.m in Sources */,
+				62300D7619BD643E001978CB /* MPBTLEViewController.m in Sources */,
+				62300D4619BCE036001978CB /* MPLoginViewController.m in Sources */,
+				62300D6819BD36DC001978CB /* MPMainViewController.m in Sources */,
+				62300D4019BCE036001978CB /* MPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62300D4919BCE036001978CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62300D5B19BCE036001978CB /* MEPlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A442F61A881B2C00421961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A442FF1A881B2C00421961 /* UI_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62300D5319BCE036001978CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62300D2B19BCE036001978CB /* MEPlus */;
+			targetProxy = 62300D5219BCE036001978CB /* PBXContainerItemProxy */;
+		};
+		C1A443011A881B2C00421961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62300D2B19BCE036001978CB /* MEPlus */;
+			targetProxy = C1A443001A881B2C00421961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62300D3819BCE036001978CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62300D3919BCE036001978CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62300D4119BCE036001978CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62300D4219BCE036001978CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62300D5719BCE036001978CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62300D5819BCE036001978CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62300D5C19BCE036001978CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62300D5D19BCE036001978CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62300D5F19BCE036001978CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MEPlus/MEPlus-Prefix.pch";
+				INFOPLIST_FILE = "MEPlus/MEPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62300D6019BCE036001978CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MEPlus/MEPlus-Prefix.pch";
+				INFOPLIST_FILE = "MEPlus/MEPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62300D6219BCE036001978CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MEPlus.app/MEPlus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MEPlus/MEPlus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MEPlusTests/MEPlusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		62300D6319BCE036001978CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MEPlus.app/MEPlus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MEPlus/MEPlus-Prefix.pch";
+				INFOPLIST_FILE = "MEPlusTests/MEPlusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		C1A443031A881B2C00421961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEPlus.app/MEPlus";
+			};
+			name = Debug;
+		};
+		C1A443041A881B2C00421961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEPlus.app/MEPlus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62300D2719BCE036001978CB /* Build configuration list for PBXProject "MEPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62300D5C19BCE036001978CB /* Debug */,
+				62300D5D19BCE036001978CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62300D5E19BCE036001978CB /* Build configuration list for PBXNativeTarget "MEPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62300D5F19BCE036001978CB /* Debug */,
+				62300D6019BCE036001978CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62300D6119BCE036001978CB /* Build configuration list for PBXNativeTarget "MEPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62300D6219BCE036001978CB /* Debug */,
+				62300D6319BCE036001978CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A443021A881B2C00421961 /* Build configuration list for PBXNativeTarget "UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A443031A881B2C00421961 /* Debug */,
+				C1A443041A881B2C00421961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62300D2419BCE036001978CB /* Project object */;
+}
