@@ -1,19 +1,19 @@
 //
-//  UI_Tests.m
-//  UI Tests
+//  MEPlusUITests.m
+//  MEPlusUITests
 //
-//  Created by Shanshan ZHAO on 08/02/15.
+//  Created by Shanshan ZHAO on 09/02/15.
 //  Copyright (c) 2015 APT9. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface UI_Tests : XCTestCase
+@interface MEPlusUITests : XCTestCase
 
 @end
 
-@implementation UI_Tests
+@implementation MEPlusUITests
 
 - (void)setUp {
     [super setUp];

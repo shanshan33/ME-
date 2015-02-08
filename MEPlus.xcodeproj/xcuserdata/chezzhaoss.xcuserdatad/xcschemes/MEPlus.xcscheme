@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "62300D2B19BCE036001978CB"
-               BuildableName = "MEPlus.app"
+               BuildableName = "MEPlus."
                BlueprintName = "MEPlus"
                ReferencedContainer = "container:MEPlus.xcodeproj">
             </BuildableReference>
@@ -48,6 +48,20 @@
                ReferencedContainer = "container:MEPlus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C1A444AE1A8826CF00421961"
+               BuildableName = "MEPlusUITests.xctest"
+               BlueprintName = "MEPlusUITests"
+               ReferencedContainer = "container:MEPlus.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -76,12 +90,22 @@
                ReferencedContainer = "container:MEPlus.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C1A444AE1A8826CF00421961"
+               BuildableName = "MEPlusUITests.xctest"
+               BlueprintName = "MEPlusUITests"
+               ReferencedContainer = "container:MEPlus.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62300D2B19BCE036001978CB"
-            BuildableName = "MEPlus.app"
+            BuildableName = "MEPlus."
             BlueprintName = "MEPlus"
             ReferencedContainer = "container:MEPlus.xcodeproj">
          </BuildableReference>
@@ -100,7 +124,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62300D2B19BCE036001978CB"
-            BuildableName = "MEPlus.app"
+            BuildableName = "MEPlus."
             BlueprintName = "MEPlus"
             ReferencedContainer = "container:MEPlus.xcodeproj">
          </BuildableReference>
@@ -118,7 +142,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62300D2B19BCE036001978CB"
-            BuildableName = "MEPlus.app"
+            BuildableName = "MEPlus."
             BlueprintName = "MEPlus"
             ReferencedContainer = "container:MEPlus.xcodeproj">
          </BuildableReference>
