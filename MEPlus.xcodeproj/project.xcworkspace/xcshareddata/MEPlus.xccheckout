@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0F3383D6-9575-459E-AD66-99A0B745B238</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MEPlus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10265E242415D473A6A613214DB7AC3EE3D43F93</key>
+		<string>https://github.com/kif-framework/KIF.git</string>
+		<key>DA6083A84D9CE634C321B286949D7740BF757150</key>
+		<string>https://github.com/shanshan33/ME-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MEPlus.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10265E242415D473A6A613214DB7AC3EE3D43F93</key>
+		<string>../..Frameworks/KIF/</string>
+		<key>DA6083A84D9CE634C321B286949D7740BF757150</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shanshan33/ME-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DA6083A84D9CE634C321B286949D7740BF757150</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10265E242415D473A6A613214DB7AC3EE3D43F93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KIF</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DA6083A84D9CE634C321B286949D7740BF757150</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ME+</string>
+		</dict>
+	</array>
+</dict>
+</plist>
